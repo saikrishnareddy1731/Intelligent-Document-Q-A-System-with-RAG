@@ -37,3 +37,5 @@ frontend/build/
 
 # Test files
 test_env.py
+
+backend/.env

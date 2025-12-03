@@ -7,10 +7,12 @@ __pycache__/
 venv/
 env/
 ENV/
+.venv/
 
-# Environment variables
+# Environment variables - NEVER COMMIT THESE!
 .env
 *.env
+!.env.example
 
 # Database
 chroma_db/
@@ -29,7 +31,9 @@ Thumbs.db
 # Node modules
 frontend/node_modules/
 frontend/build/
-frontend/.env
 
 # Logs
 *.log
+
+# Test files
+test_env.py

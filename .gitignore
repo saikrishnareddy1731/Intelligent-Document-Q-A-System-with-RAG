@@ -39,3 +39,8 @@ frontend/build/
 test_env.py
 
 backend/.env
+
+
+backend/frontend/node_modules/
+backend/frontend/build/
+backend/frontend/.env
